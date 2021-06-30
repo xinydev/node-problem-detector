@@ -18,5 +18,6 @@ jobs:
           sudo apt update -y
           sudo apt install -y libsystemd-dev gcc-aarch64-linux-gnu
           make build-container
-          docker inspect gcr.io/k8s-staging-npd/node-problem-detector:v1
+          docker images
+#          docker inspect gcr.io/k8s-staging-npd/node-problem-detector:v1
 #         run: make
