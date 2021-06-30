@@ -14,4 +14,5 @@ jobs:
         with:
           version: latest
       - name: build the image
-        run: sudo apt install -y libsystemd-journal-dev gcc-aarch64-linux-gnu && make
+#         run: sudo apt install -y libsystemd-journal-dev gcc-aarch64-linux-gnu && make'
+        run: make
