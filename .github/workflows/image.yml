@@ -23,4 +23,6 @@ jobs:
           sudo apt update -y
           sudo apt install -y libsystemd-dev gcc-aarch64-linux-gnu
           make build-container
+          sleep 10
+          docker images
 #         run: make
