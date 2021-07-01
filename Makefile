@@ -29,7 +29,7 @@ PLATFORMS=$(LINUX_PLATFORMS) windows_amd64
 VERSION?=$(shell if [ -d .git ]; then echo `git describe --tags --dirty`; else echo "UNKNOWN"; fi)
 
 # TAG is the tag of the container image, default to binary version.
-TAG?=$(VERSION)
+TAG?=v0.8.9
 
 # REGISTRY is the container registry to push into.
 REGISTRY?=xinydev
